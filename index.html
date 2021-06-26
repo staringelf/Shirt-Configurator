@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Shirt Configurator</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div id="tshirt">
+    <img id="tshirt__image" src="./assets/images/tshirt.png">
+  </div>
+  
+  <div class="drawing-area">
+    <div class="canvas-container">
+      <canvas id="canvas" width="200" height="400"></canvas> 
+    </div>
+  </div>
+  
+  <form>
+     <label for="tshirt-design">T-Shirt Design:</label>
+        <select id="tshirt-design">
+            <option />
+            <option value="batman.png">Batman</option>
+        </select>
+
+        <!-- The Select that allows the user to change the color of the T-Shirt -->
+        <br><br>
+        <label for="tshirt-color">T-Shirt Color:</label>
+        <select id="tshirt-color">
+            <!-- You can add any color with a new option and definings its hex code -->
+            <option value="#fff">White</option>
+            <option value="#000">Black</option>
+            <option value="#f00">Red</option>
+            <option value="#008000">Green</option>
+            <option value="#ff0">Yellow</option>
+        </select>
+  </form>
+
+  <script src="./bootstrap/fabric.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+  
+</body>
+</html>
