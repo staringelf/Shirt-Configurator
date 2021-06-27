@@ -1,4 +1,4 @@
-.drawing-area{
+.product__drawing-board{
     position: absolute;
     top: 60px;
     left: 122px;
@@ -14,7 +14,7 @@
     user-select: none;
 }
 
-#tshirt{
+#product{
     width: 452px;
     height: 548px;
     position: relative;
